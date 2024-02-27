@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.w-100-height{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-item{
+    min-height: 300px;
+}
+.carousel-caption .d-flex input{
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.carousel-caption .d-flex input:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+.carousel-caption .d-flex button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border:none;
+    outline: none;
+}
+.carousel-caption .d-flex button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+.carousel-caption{
+    text-align: left;
+    margin-bottom: 200px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 60px
+}
+.carousel-caption p{
+   font-size: 20px;
+}
+.carousel-inner::before{
+    content:" ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+section.container{
+    margin-top: 100px;
+
+}
+
